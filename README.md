@@ -1,2 +1,2 @@
-# Captcha-Recognition
-CS 771A course project (2019) under Dr. Purushottam Kar
+# Captcha-Recognition using Machine Learning
+In this project, we tried to identify the distinguishable alphabets present in a captcha filled with obfuscating lines using traditional machine learning. We performed dilation (open-cv) for removing the lines, breadth first search for alphabet segmentation, and alphabet classification using linear and kernel support vector machines (SVM). The code is written in Python-3 using Scikit-Learn library.
